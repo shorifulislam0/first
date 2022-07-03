@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1170px;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: #7e7e7e;
+                    font-size: 16px;
+                    font-weight: 500;
+                    display: block;
+                    overflow: hidden;
+                    position: relative;
+                    &:hover{
+                        color: #d6002f;
+                    }
+                    .first{
+                        transform: translateY(-150%);
+                        display: block;
+                        position: relative;
+                        transition: all .3s ease;
+                    }
+                    .secend{
+                        top: 50%;
+                        transform: translateY(-50%);
+                        position: absolute;
+                        transition: all .3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.hero{
+    .bgc{
+        .hero-content{
+            h3{
+                color: #0f172a;
+                font-size: 23px;
+                line-height: 29.9px;
+                margin: 0px 0px 15px;
+                font-weight: 400;
+            }
+            h1{
+                color: #0f172a;
+                font-size: 55px;
+                line-height: 66px;
+                margin: 0px 0px 17px;
+                font-weight: 700;
+                span{
+                    color: #d6002f;
+                }
+            }
+            p{
+                color: #7e7e7e;
+                font-size: 18px;
+                line-height: 30px;
+                margin: 0px 0px 32px;
+                font-weight: 400;
+            }
+            .hero-btn{
+                color: #0f172a;
+                font-size: 20px;
+                font-weight: 500;
+                border: 2px solid #7e7e7e;
+                display: inline-block;
+                padding: 8px 30px;
+                border-radius: 6px;
+                overflow: hidden;
+                position: relative;
+                &:hover{
+                    color: #d6002f;
+                    border-color: #d6002f;
+                }
+            }
+        }
+    }
+}
